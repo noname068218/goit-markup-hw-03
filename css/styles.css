@@ -63,10 +63,14 @@ body {
 
 .link-portfolio {
   margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .link-contacts {
   margin-right: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .alert {
