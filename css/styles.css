@@ -59,17 +59,14 @@ body {
 /* menu list*/
 .link-studio {
   margin-right: 40px;
-  padding: 24px 0 24px;
 }
 
 .link-portfolio {
   margin-right: 40px;
-  padding: 24px 0 24px;
 }
 
 .link-contacts {
   margin-right: 0;
-  padding: 24px 0 24px;
 }
 
 .alert {
@@ -78,6 +75,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-link);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .alert:hover,
