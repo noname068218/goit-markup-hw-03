@@ -59,20 +59,17 @@ body {
 /* menu list*/
 .link-studio {
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0 24px;
 }
 
 .link-portfolio {
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0 24px;
 }
 
 .link-contacts {
   margin-right: 0;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0 24px;
 }
 
 .alert {
@@ -134,7 +131,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  max-width: 456px;
+  max-width: 496px;
   margin: 188px 472px 292px 272px;
 }
 
@@ -154,7 +151,6 @@ body {
   display: block;
   border: none;
   cursor: pointer;
-  margin: 48px 636px 188px 636px;
 }
 .button-order:hover,
 .button-order:focus {
@@ -241,6 +237,6 @@ body {
   background-color: #404bbf;
 }
 /* Photo */
-.img {
+img {
   display: block;
 }
