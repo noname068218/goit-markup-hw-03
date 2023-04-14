@@ -5,44 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="header-div container">
+  <body>
     <header class="main-header">
-      <div>
-        <nav>
-          <a class="logoweb link" href="./index.html">Web<span class="logo_web">Studio</span></a>
-          <ul class="list">
-            <li><a class="alert link" href="./index.html">Studio</a></li>
-            <li><a class="alert link" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="alert link" href="">Contacts</a></li>
+      <div class="primary-header container">
+        <nav class="nav_link">
+          <a class="logoweb link" href="./index.html">Web<span class="logo-web">Studio</span></a>
+          <ul class="list main-list">
+            <li class="link-studio"><a class="alert link" href="./index.html">Studio</a></li>
+            <li class="link-portfolio"
+              ><a class="alert link" href="./portfolio.html">Portfolio</a></li
+            >
+            <li class="link-contacts"><a class="alert link" href="">Contacts</a></li>
           </ul>
         </nav>
         <address class="contacts">
-          <ul class="list">
-            <li
-              ><a class="sections link" href="mailto:info@devstudio.com">info@devstudio.com</a></li
+          <ul class="list main-contacts">
+            <li class="gmail"
+              ><a class="sections-contact link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              ></li
             >
-            <li><a class="sections link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <li class="number"
+              ><a class="sections-contact link" href="tel:+110001111111">+11 (000) 111-11-11</a></li
+            >
           </ul>
         </address>
       </div>
     </header>
     <!--1-->
     <main>
-      <section class="background">
-        <h1 class="hero-text">Effective Solutions <br />Your Business</h1>
-        <button class="button-order" type="button">Order Service</button>
+      <section class="main-page">
+        <div class="container">
+          <h1 class="hero-text">Effective Solutions <br />Your Business</h1>
+          <button class="button-order" type="button">Order Service</button>
+        </div>
       </section>
 
       <!--2-->
