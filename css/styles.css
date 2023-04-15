@@ -69,7 +69,7 @@ body {
   margin-right: 0;
 }
 
-.main-list li {
+.alert {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -77,7 +77,6 @@ body {
   color: var(--main-link);
   padding-top: 24px;
   padding-bottom: 24px;
-  display: flex;
 }
 
 .alert:hover,
@@ -86,6 +85,9 @@ body {
 }
 
 /* menu contacts*/
+.main-list {
+  display: flex;
+}
 
 .main-contacts {
   display: flex;
