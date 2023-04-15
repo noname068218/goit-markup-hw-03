@@ -48,7 +48,7 @@ body {
 
 /* logo webstudio*/
 
-.nav_link {
+.nav-link {
   display: flex;
   align-items: center;
 }
@@ -57,16 +57,10 @@ body {
   color: var(--main-link);
 }
 /* menu list*/
-.link-studio {
-  margin-right: 40px;
-}
 
-.link-portfolio {
-  margin-right: 40px;
-}
-
-.link-contacts {
-  margin-right: 0;
+.main-list {
+  display: flex;
+  gap: 40px;
 }
 
 .alert {
@@ -75,8 +69,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-link);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .alert:hover,
@@ -85,9 +77,6 @@ body {
 }
 
 /* menu contacts*/
-.main-list {
-  display: flex;
-}
 
 .main-contacts {
   display: flex;
