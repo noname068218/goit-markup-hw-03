@@ -122,7 +122,7 @@ body {
   color: #ffffff;
   max-width: 496px;
   margin-left: 472px;
-  margin-top: 260px;
+  margin-top: 188px;
 
   outline: 2px solid tomato;
 }
@@ -147,6 +147,9 @@ body {
   cursor: pointer;
   padding: 16px, 32px, 16px, 32px;
   gap: 10px;
+
+  margin-left: 635px;
+  margin-bottom: 188px;
 }
 .button-order:hover,
 .button-order:focus {
@@ -165,12 +168,24 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-link);
+  margin-bottom: 8px;
+  outline: 2px solid tomato;
+}
+
+.text-desc {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  outline: 2px solid tomato;
 }
 
 .text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.primary-desc {
+  display: flex;
+  gap: 24px;
 }
 
 .doing {
