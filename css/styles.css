@@ -172,8 +172,9 @@ body {
   outline: 2px solid tomato;
 }
 
-.text-desc p {
+.text-desc {
   outline: 2px solid tomato;
+  width: calc((100% - 72px) / 4);
 }
 
 .text {
