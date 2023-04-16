@@ -173,7 +173,6 @@ body {
 }
 
 .text-desc p {
-  flex-basis: calc((100% - 3 * 24px) / 4);
   outline: 2px solid tomato;
 }
 
