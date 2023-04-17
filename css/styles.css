@@ -176,7 +176,7 @@ body {
 }
 
 .text-desc {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: content;
 }
 
 .text {
