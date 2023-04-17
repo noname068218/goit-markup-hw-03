@@ -121,8 +121,8 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
-  margin-left: 472px;
-  margin-top: 188px;
+  margin-left: auto;
+  margin-right: auto;
 
   outline: 2px solid tomato;
 }
@@ -148,8 +148,8 @@ body {
   padding: 16px, 32px, 16px, 32px;
   gap: 10px;
 
-  margin-left: 635px;
-  margin-bottom: 188px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-order:hover,
 .button-order:focus {
@@ -160,6 +160,8 @@ body {
 .seconadry-section {
   padding-top: 120px;
   padding-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-two {
@@ -172,7 +174,6 @@ body {
 }
 
 .text-desc {
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .text {
@@ -203,8 +204,7 @@ body {
   display: flex;
   gap: 24px;
 }
-.img {
-  width: calc((100% - 48px) / 3);
+.imge {
 }
 /* 4 section*/
 .our-team {
@@ -221,6 +221,8 @@ body {
   background-color: #f4f4fd;
   padding-bottom: 120px;
   padding-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .staff {
@@ -235,14 +237,38 @@ body {
   color: #2e2f42;
   font-weight: 500;
 }
-
+.mark,
+.ford,
+.garcia,
+.wilson {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
+}
+.guer,
+.tom,
+.camila,
+.daniel {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.designer,
+.developer,
+.marketing,
+.uides {
+  text-align: center;
+}
 .back {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
 }
+/* footer*/
 
 .end {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+.logotype {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .text-end {
@@ -251,6 +277,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .logo_end {
   color: #f4f4fd;
