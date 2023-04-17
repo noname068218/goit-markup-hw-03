@@ -175,8 +175,8 @@ body {
   margin-bottom: 8px;
 }
 
-.text-desc {
-  flex-basis: auto;
+.desc {
+  width: calc((100% - 3 * 72px) / 4);
 }
 
 .text {
