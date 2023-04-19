@@ -4,11 +4,6 @@ body {
   color: #434455;
   box-sizing: border-box;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 :root {
   --font-family: 'Roboto', sans-serif;
@@ -24,6 +19,13 @@ body {
 }
 .link {
   text-decoration: none;
+}
+
+.gmail-margin {
+  margin-left: 156px;
+}
+.numbers {
+  margin-left: 40px;
 }
 
 /* studio */
@@ -91,14 +93,7 @@ body {
 
 .main-contacts {
   display: flex;
-}
-
-.gmail {
-  margin-right: 40px;
-}
-
-.number {
-  margin-right: 0;
+  gap: 40px;
 }
 
 .sections-contact {
@@ -106,8 +101,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
-}
-.sections-contact {
   color: #434455;
 }
 
@@ -133,8 +126,7 @@ body {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
-
-  outline: 2px solid tomato;
+  margin-bottom: 48px;
 }
 
 .button-order {
@@ -144,8 +136,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
-  outline: 2px solid tomato;
 
   background-color: #4d5ae5;
   border-radius: 4px;
@@ -172,6 +162,7 @@ body {
   padding-bottom: 120px;
   margin-left: auto;
   margin-right: auto;
+  outline: 2px solid tomato;
 }
 
 .section-two {
@@ -184,7 +175,7 @@ body {
 }
 
 .desc {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .text {
@@ -208,8 +199,10 @@ body {
   margin-bottom: 72px;
 }
 
-.picture {
-  padding-bottom: 120px;
+.imge {
+  margin-bottom: 120px;
+  width: calc((100% - 48px) / 3);
+  height: auto;
 }
 .pic {
   display: flex;
@@ -328,9 +321,6 @@ body {
 }
 
 /* Photo */
-img {
-  display: block;
-}
 
 .features {
   display: flex;
