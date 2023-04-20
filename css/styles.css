@@ -21,10 +21,10 @@ body {
   text-decoration: none;
 }
 
-.gmail-margin {
+.gmail {
   margin-left: 156px;
 }
-.numbers {
+.number {
   margin-left: 40px;
 }
 
@@ -340,4 +340,5 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+  width: calc((100% - 48px) / 3);
 }
