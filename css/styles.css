@@ -52,8 +52,7 @@ body {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -172,16 +171,18 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-link);
   margin-bottom: 8px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .desc {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .primary-desc {
@@ -201,14 +202,15 @@ body {
 
 .imge {
   margin-bottom: 120px;
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
   height: auto;
 }
 .pic {
   display: flex;
   gap: 24px;
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
-.img {
+img {
   display: block;
 }
 /* 4 section*/
@@ -220,6 +222,9 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.11;
   margin-bottom: 72px;
+}
+.picture {
+  padding-bottom: 120px;
 }
 
 .back-team {
