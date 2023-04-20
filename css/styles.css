@@ -334,6 +334,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding-left: 0;
 }
 .features-list {
   width: calc((100% - 48px) / 3);
