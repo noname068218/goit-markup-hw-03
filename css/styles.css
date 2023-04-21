@@ -25,13 +25,6 @@ body {
   padding: 0;
 }
 
-.gmail {
-  margin-left: 156px;
-}
-.number {
-  margin-left: 40px;
-}
-
 /* studio */
 .logoweb {
   font-family: 'Raleway', sans-serif;
@@ -56,7 +49,7 @@ body {
 
 .container {
   width: 1158px;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -76,8 +69,9 @@ body {
 .main-list {
   display: flex;
   gap: 40px;
-  margin-bottom: 24px;
-  margin-top: 24px;
+  padding: 24px 0;
+  margin: 0;
+  margin-right: 156px;
 }
 
 .alert {
@@ -121,6 +115,7 @@ body {
   background-color: var(--main-link);
   padding-top: 188px;
   padding-bottom: 188px;
+  display: flex;
 }
 
 .hero-text {
@@ -129,11 +124,10 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  max-width: 496px;
-  margin-left: auto;
-  margin-right: auto;
+  min-width: 496px;
   margin-bottom: 48px;
   margin-top: 0;
+  align-items: center;
 }
 
 .button-order {
@@ -149,14 +143,16 @@ body {
   line-height: 1.5;
   min-width: 169px;
   height: 56px;
-  display: block;
   border: none;
   cursor: pointer;
   padding: 16px 32px;
   gap: 10px;
+  display: block;
+}
 
-  margin-left: auto;
-  margin-right: auto;
+.flex-btn {
+  display: flex;
+  justify-content: center;
 }
 .button-order:hover,
 .button-order:focus {
@@ -211,7 +207,8 @@ body {
   margin-top: 0;
 }
 .picture {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 .imge {
   flex-basis: calc((100% - 3 * 16px) / 3);
@@ -283,10 +280,16 @@ img {
 .end {
   background-color: #2e2f42;
   padding: 100px 0;
+  margin: 0;
 }
 .logotype {
   display: inline-block;
-  margin-bottom: 16px;
+  margin: 0;
+}
+
+.end-margin {
+  display: inline-block;
+  margin-bottom: 17.5px;
 }
 
 .text-end {
@@ -363,5 +366,4 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
